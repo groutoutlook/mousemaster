@@ -358,6 +358,8 @@ public enum WindowsVirtualKey {
                 Map.entry(Key.numpad7, VK_NUMPAD7),
                 Map.entry(Key.numpad8, VK_NUMPAD8),
                 Map.entry(Key.numpad9, VK_NUMPAD9),
+                Map.entry(Key.numpadclear, VK_CLEAR),
+                Map.entry(Key.numpadenter, VK_RETURN),
                 Map.entry(Key.numpadmultiply, VK_MULTIPLY),
                 Map.entry(Key.numpadadd, VK_ADD),
                 Map.entry(Key.numpadsubtract, VK_SUBTRACT),
