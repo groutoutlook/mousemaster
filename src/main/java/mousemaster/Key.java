@@ -44,6 +44,8 @@ public record Key(String staticName, String staticSingleCharacterName, String ch
     public static final Key numpad7 = new Key("numpad7", "7", null);
     public static final Key numpad8 = new Key("numpad8", "8", null);
     public static final Key numpad9 = new Key("numpad9", "9", null);
+    public static final Key numpad9 = new Key("numpadclear", "5'", null);
+    public static final Key numpad9 = new Key("numpadenter", "nl", null);
     public static final Key numpadmultiply = new Key("numpadmultiply", null, null);
     public static final Key numpadadd = new Key("numpadadd", null, null);
     public static final Key numpadsubtract = new Key("numpadsubtract", null, null);
@@ -109,6 +111,8 @@ public record Key(String staticName, String staticSingleCharacterName, String ch
             numpad7,
             numpad8,
             numpad9,
+            numpadclear,
+            numpadenter,
             numpadmultiply,
             numpadadd,
             numpadsubtract,
