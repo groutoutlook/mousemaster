@@ -528,7 +528,9 @@ public enum WindowsVirtualKey {
             case VK_CTRL -> (flags & 0x01000000) == 0 ? Key.leftctrl : Key.rightctrl;
             case VK_MENU -> (flags & 0x01000000) == 0 ? Key.leftalt : Key.rightalt;
             case VK_ALT -> (flags & 0x01000000) == 0 ? Key.leftalt : Key.rightalt;
-            //Placeholder, check flag for numpad key, or when they are pressed with shift.
+            // INFO: separate navigation keys/enter keys with keys in numpad.
+            // 0x00000001 is the NUMPAD flag I suppose.
+            case VK_RETURN -> (flags & 0x00000001) == 0 ? Key.enter : Key.numpadenter;
             default -> null;
         };
         if (key != null)
