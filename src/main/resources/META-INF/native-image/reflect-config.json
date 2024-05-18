@@ -1,8 +1,5 @@
 [
 {
-  "name":"[Lcom.sun.jna.platform.win32.WinDef$POINT;"
-},
-{
   "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
   "queryAllPublicMethods":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]
@@ -137,10 +134,6 @@
 },
 {
   "name":"com.sun.jna.platform.win32.WinDef$HMODULE",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.jna.platform.win32.WinDef$HPEN",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {

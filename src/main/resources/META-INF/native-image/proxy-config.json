@@ -9,9 +9,6 @@
     "interfaces":["com.sun.jna.platform.win32.User32"]
   },
   {
-    "interfaces":["mousemaster.Dwmapi"]
-  },
-  {
     "interfaces":["mousemaster.ExtendedGDI32"]
   },
   {
