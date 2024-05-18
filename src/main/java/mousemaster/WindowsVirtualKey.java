@@ -528,6 +528,7 @@ public enum WindowsVirtualKey {
             case VK_CTRL -> (flags & 0x01000000) == 0 ? Key.leftctrl : Key.rightctrl;
             case VK_MENU -> (flags & 0x01000000) == 0 ? Key.leftalt : Key.rightalt;
             case VK_ALT -> (flags & 0x01000000) == 0 ? Key.leftalt : Key.rightalt;
+            //Placeholder, check flag for numpad key, or when they are pressed with shift.
             default -> null;
         };
         if (key != null)
